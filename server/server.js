@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 dotenv.config();
-console.log('Path to credentials:', process.env.GOOGLE_APPLICATION_CREDENTIALS);
+
 import express from 'express';
 import cors from 'cors';
 import authRoutes from './routes/authRoutes.js';
