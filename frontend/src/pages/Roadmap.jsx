@@ -15,7 +15,7 @@ const Roadmap = () => {
     const fetchRoadmap = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:5000/api/roadmap/${encodeURIComponent(career)}`,
+          `https://brightpath-qxv7.onrender.com/api/roadmap/${encodeURIComponent(career)}`,
           { headers: { Authorization: `Bearer ${authState.token}` } }
         );
         setRoadmap(data);
