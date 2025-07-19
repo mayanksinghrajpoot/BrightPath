@@ -9,7 +9,7 @@ const AboutUs = () => {
         {/* Hero Section */}
         <div className="flex flex-col items-center text-center mb-20">
           <img
-            src="./src/images/my-img.jpeg"
+            src="../images/my-img.jpeg"
             alt="Mayank Singh Rajpoot"
             className="w-72 h-72 rounded-full shadow-lg mb-6 border-2 border-primary"
           />
