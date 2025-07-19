@@ -1,5 +1,5 @@
 import Roadmap from '../models/Roadmap.js';
-import { generateCareerRoadmap } from '../../services/geminiResponse.js';
+import { generateCareerRoadmap } from '../geminiResponse.js';
 
 const getRoadmap = async (req, res) => {
   const { career } = req.params;
