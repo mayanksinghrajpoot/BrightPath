@@ -1,7 +1,6 @@
 import React from "react";
 import{Link} from 'react-router-dom';
 import { FaUserGraduate, FaMapMarkerAlt, FaBullseye, FaLightbulb } from "react-icons/fa";
-import { MdConnectWithoutContact } from "react-icons/md";
 
 const AboutUs = () => {
   return (
@@ -10,7 +9,7 @@ const AboutUs = () => {
         {/* Hero Section */}
         <div className="flex flex-col items-center text-center mb-20">
           <img
-            src="src/images/my-img.jpeg"
+            src="./src/images/my-img.jpeg"
             alt="Mayank Singh Rajpoot"
             className="w-72 h-72 rounded-full shadow-lg mb-6 border-2 border-primary"
           />
