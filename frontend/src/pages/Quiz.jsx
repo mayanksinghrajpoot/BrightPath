@@ -57,7 +57,7 @@ const Quiz = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        'http://localhost:5000/api/quiz/submit',
+        'https://brightpath-qxv7.onrender.com/api/quiz/submit',
         { questions: quizQuestions, answers },
         { headers: { Authorization: `Bearer ${authState.token}` } }
       );
