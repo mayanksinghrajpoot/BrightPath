@@ -12,7 +12,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const { data } = await axios.get('https://brightpath-qxv7.onrender.com', {
+        const { data } = await axios.get('https://brightpath-qxv7.onrender.com/api/quiz/history', {
           headers: { Authorization: `Bearer ${authState.token}` },
         });
         setQuizHistory(data);
