@@ -1,5 +1,5 @@
 import QuizResult from '../models/QuizResult.js';
-import { getCareerSuggestions } from '../../services/geminiResponse.js';
+import { getCareerSuggestions } from '../geminiResponse.js';
 
 const submitQuiz = async (req, res) => {
   const { questions,answers } = req.body;
