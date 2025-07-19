@@ -21,7 +21,7 @@ const Signup = () => {
     setError('');
     setLoading(true);
     try {
-      const { data } = await axios.post('http://localhost:5000/api/auth/signup', { name, email, password });
+      const { data } = await axios.post('https://brightpath-qxv7.onrender.com/api/auth/signup', { name, email, password });
       login(data);
       navigate('/dashboard');
     } catch (err) {
