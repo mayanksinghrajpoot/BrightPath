@@ -53,7 +53,7 @@ Provide a description, key roles, and required skills for each suggested career.
 async function generateCareerRoadmap(careerName) {
   const prompt = `Create a detailed, structured learning roadmap for a beginner aspiring to become a "${careerName}".
 The roadmap should be divided into three levels: Beginner, Intermediate, and Advanced.
-For each level, provide a clear title, a list of key topics to master, topics outcome and a few suggested resources (like platforms, specific courses, or tools) with example names and URLs.
+For each level, provide a clear title, a list of key topics to master and a few suggested resources (like platforms, specific courses, or tools) with example names and URLs.
 `;
 
   try {
