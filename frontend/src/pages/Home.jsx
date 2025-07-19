@@ -248,7 +248,7 @@ export default function Home() {
               <li><a href="#features" className="hover:underline">Features</a></li>
               <li><a href="#working" className="hover:underline">Mechanism</a></li>
               <li><a href="#reviews" className="hover:underline">Testimonials</a></li>
-              <li><Link to="/aboutus" className='hover:underline'>About Us</Link> </li>
+              <li><Link to="/aboutus" className='hover:underline'>About Owner</Link> </li>
             </ul>
           </div>
           <div>
