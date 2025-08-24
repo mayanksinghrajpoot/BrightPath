@@ -1,7 +1,7 @@
 import React from "react";
 import{Link} from 'react-router-dom';
 import { FaUserGraduate, FaMapMarkerAlt, FaBullseye, FaLightbulb } from "react-icons/fa";
-
+import profile from '../images/my-img.jpeg';
 const AboutUs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br to-info/50 from-info-cintent pt-10 rounded-2xl shadow-lg">
@@ -9,7 +9,7 @@ const AboutUs = () => {
         {/* Hero Section */}
         <div className="flex flex-col items-center text-center mb-20">
           <img
-            src="../images/my-img.jpeg"
+            src={profile}
             alt="Mayank Singh Rajpoot"
             className="w-72 h-72 rounded-full shadow-lg mb-6 border-2 border-primary"
           />
